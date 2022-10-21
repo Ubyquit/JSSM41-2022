@@ -1,7 +1,6 @@
 x = prompt("Ingresa el valor de x");
 y = prompt("Ingresa el valor de y");
 
-
 document.write(`x: ${x} <br>`);
 document.write(`y: ${y} <br>`);
 document.write(`Igual: ${x == y} ${x} == ${y} <br>`);
