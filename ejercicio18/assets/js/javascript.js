@@ -1,7 +1,6 @@
 // FUNCIONES SIN ARGUMENTOS
 
 function dia() {
-
   let dia = prompt("Como estas hoy");
 
   if (dia == "bien") {
@@ -9,9 +8,7 @@ function dia() {
   } else {
     document.write("Dios te bendiga <br>");
   }
-  
 }
 
-dia();
 dia();
 dia();
