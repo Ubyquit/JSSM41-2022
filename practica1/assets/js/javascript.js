@@ -1,19 +1,21 @@
 let arrayA = {
-  nombre: "LUIS FERNANDO",
+  imgP: "assets/img/yo.jpg",
+  imgF: "assets/img/firma.png",
   apellidoP: "VILLAFAÑA",
   apellidoM: "REJON",
-  img: "assets/img/yo.jpg",
+  nombre: "LUIS FERNANDO",
 };
 
-let nombre = arrayA["nombre"];
-let apellidoP = arrayA.apellidoP;
+
+let imgP = arrayA.imgP;
+let imgF = arrayA.imgF;
+let apellidoP = arrayA["apellidoP"];
 let apellidoM = arrayA.apellidoM;
-let img = arrayA.img;
+let nombre = arrayA.nombre;
 
 
+document.getElementById("imgP").src = imgP;
+document.getElementById("imgF").src = imgF;
 document.getElementById("apellidoP").innerHTML = apellidoP;
 document.getElementById("apellidoM").innerHTML = apellidoM;
 document.getElementById("nombre").innerHTML = nombre;
-document.getElementById("img").src = img;
-
-
