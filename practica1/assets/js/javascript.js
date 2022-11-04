@@ -6,13 +6,11 @@ let arrayA = {
   nombre: "LUIS FERNANDO",
 };
 
-
 let imgP = arrayA.imgP;
 let imgF = arrayA.imgF;
 let apellidoP = arrayA["apellidoP"];
 let apellidoM = arrayA.apellidoM;
 let nombre = arrayA.nombre;
-
 
 document.getElementById("imgP").src = imgP;
 document.getElementById("imgF").src = imgF;
